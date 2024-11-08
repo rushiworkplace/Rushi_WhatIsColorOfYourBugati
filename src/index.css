@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: reg;
+  src: url("/Drexs-z8gB3.ttf");
+}
+
+@font-face {
+  font-family: bld;
+  src: url("/RoboGirls-4BzEB.ttf");
+}
+
+.txt {
+    background: linear-gradient(180deg, #000000, #7b7b7b, #cbcbcb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* transform: rotate(180deg); */
+}
